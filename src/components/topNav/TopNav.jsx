@@ -33,8 +33,8 @@ export const TopNav = ({ open, setOpen }) => {
               <img src={img1} alt="logo" />
             </Link>
           </div>
-          <div className="mx-1 md:mx-2 lg:mx-5 text-sm sm:text-md  cursor-pointer">
-            <i className="fa-solid fa-user pr-1"></i>+23165697965
+          <div className="mx-1 md:mx-2 lg:mx-5 text-sm sm:text-md  cursor-pointer snap-mandatory sm">
+            <i className="fa-solid fa-user pr-1 sm"></i>+23165697965
           </div>
 
           <div className="hidden md:flex md:mx-2 lg:mx-5 items-center  cursor-pointer">
@@ -42,7 +42,7 @@ export const TopNav = ({ open, setOpen }) => {
             <a href="mailto:kmusa@gmail.com">kmariam@gmail.com</a>
           </div>
           <div className="mx-1 md:mx-5 flex gap-2 text-sm sm:text-md md:gap-4 sm:flex-wrap  cursor-pointer">
-            <i className="fa-brands fa-whatsapp"></i>
+            <i className="fa-brands fa-whatsapp sm"></i>
             <i className="fa-brands fa-facebook sm"></i>
             <i className="fa-brands fa-instagram sm"></i>
             <i className="fa-brands fa-twitter sm"></i>
