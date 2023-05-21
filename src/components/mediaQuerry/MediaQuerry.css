@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.height {
+  height: calc(100vh - 60px);
+}
+
+.tablet {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .slider {
+    display: none;
+  }
+  .tablet {
+    display: block;
+  }
+  .introBtn{
+    background: linear-gradient(to right, #ec74e7 -45%, #8468f5 75%);
+  }
+  .height {
+    position: relative;
+    height: 100vh;
+    background-image: url("../../asstes/images/bgland.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .height {
+    background-image: url("../../asstes/images/mobile-s.jpg");
+  }
+  .introBtn {
+    background: white;
+  }
+  .sm{
+    display: none;
+  }
+}

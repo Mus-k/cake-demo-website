@@ -1,0 +1,236 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primaryText {
+  color: #8468f5;
+  /* color: rgb(131, 58, 180); */
+  /* color: linear-gradient(to right, #ec74e7 -45%, #8468f5 75%); */
+}
+.linear {
+  background: linear-gradient(to right, #ec74e7 -45%, #8468f5 75%);
+}
+
+.right .hamburger {
+  width: 32px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.span {
+  width: 100%;
+  height: 3px;
+  transform-origin: left;
+  background: white;
+  transition: all 2s ease;
+}
+
+.topbar.active .span:first-child {
+  transform: rotate(45deg);
+  background-color: black;
+}
+.topbar.active .span:nth-child(2) {
+  opacity: 0;
+}
+.topbar.active .span:last-child {
+  transform: rotate(-45deg);
+  background-color: black;
+}
+
+.heros {
+  background: #f8c7c8;
+  /* background-image: linear-gradient(109deg, #996aed -4%, #eb67f1 95%); */
+}
+
+/* slider transition css */
+
+.wrapper {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* gallery section */
+
+.galleryItem {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+  padding: 0 12px;
+}
+
+.galleryItem .img-div {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.galleryItem .img-div:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1060px) {
+  .wrapper {
+    height: 600px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .galleryItem {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+}
+@media screen and (max-width: 480px) {
+  .galleryItem {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+  }
+  .model.open .popupImg img {
+    max-height: 450px;
+    max-width: 400px;
+    border-radius: 20px;
+  }
+}
+
+.overlay {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: opacity 0.4s ease, transform 0.5s ease-in-out;
+  visibility: hiden;
+  opacity: 0;
+  transform: scale(0);
+  overflow: hidden;
+  z-index: 99;
+}
+
+.model {
+  position: fixed;
+  top: 5%;
+  bottom: 5%;
+  margin-top: 10px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: opacity 0.4s ease, transform 0.5s ease-in-out;
+  visibility: hiden;
+  opacity: 0;
+  transform: scale(0);
+  overflow: hidden;
+  z-index: 999;
+}
+.overlay.open,
+.model.open {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+.close {
+  opacity: 0;
+}
+.model.open .close {
+  position: fixed;
+  opacity: 1;
+  right: 10px;
+  width: 3rem;
+  height: 3rem;
+  padding-top: 20px;
+  font-size: 20px;
+  color: #ffff;
+  cursor: pointer;
+}
+.model img {
+  width: auto;
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  line-height: 0;
+  box-sizing: border-box;
+  padding: 20px 0 20px;
+  margin: 0 auto;
+}
+
+/* about  */
+.about {
+  padding: 100px 30px;
+}
+.ab-wrapper {
+  background: url("../src/asstes/images/gallery-5.jpg");
+  background-size: 55%;
+
+  overflow: hidden;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  padding: 50px 0px;
+  object-fit: cover;
+}
+
+.ab-container {
+  width: 55%;
+  float: right;
+
+  padding: 70px;
+}
+
+@media screen and (max-width: 800px) {
+  .ab-container {
+    padding: 30px;
+  }
+
+  .ab-wrapper {
+    background: url("../src/asstes/images/gallery-5.jpg");
+    background-repeat: no-repeat;
+    padding: 40px 0px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .ab-container {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .ab-wrapper {
+    background: url("../src/asstes/images/gallery-5.jpg");
+    background-size: 100%;
+    padding: 40px 0px;
+  }
+}
