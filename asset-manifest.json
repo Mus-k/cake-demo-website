@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/cake-demo-website/static/css/main.32636f3f.css",
+    "main.js": "/cake-demo-website/static/js/main.fa57d063.js",
+    "static/media/bgland.jpg": "/cake-demo-website/static/media/bgland.a4897d7fb6c983a75a23.jpg",
+    "static/media/picture-1.jpg": "/cake-demo-website/static/media/picture-1.1347e86901b77d8f5ddf.jpg",
+    "static/media/gallery-7.jpg": "/cake-demo-website/static/media/gallery-7.bc631cc7ac0acc522fd2.jpg",
+    "static/media/cake-2.jpg": "/cake-demo-website/static/media/cake-2.3fe47f96092ffb3d0daa.jpg",
+    "static/media/eclair.jpg": "/cake-demo-website/static/media/eclair.e2aab138bdc6f68f57e6.jpg",
+    "static/media/cake-3.jpg": "/cake-demo-website/static/media/cake-3.afd0d00d0138f26d2fc6.jpg",
+    "static/media/gallery-3.jpg": "/cake-demo-website/static/media/gallery-3.d1b880e2c99578f60e2d.jpg",
+    "static/media/dessert.jpg": "/cake-demo-website/static/media/dessert.831d23c9e225811d8961.jpg",
+    "static/media/gallery-1.jpg": "/cake-demo-website/static/media/gallery-1.20732840289aab7be71b.jpg",
+    "static/media/gallery-4.jpg": "/cake-demo-website/static/media/gallery-4.3c37b46d9f6e0a2cb51b.jpg",
+    "static/media/mobile-s.jpg": "/cake-demo-website/static/media/mobile-s.3c37b46d9f6e0a2cb51b.jpg",
+    "static/media/picture-2.jpg": "/cake-demo-website/static/media/picture-2.8d6da970bc87e56a290e.jpg",
+    "static/media/cake-05.jpg": "/cake-demo-website/static/media/cake-05.01d4ae3e1a13e6431038.jpg",
+    "static/media/gallery-5.jpg": "/cake-demo-website/static/media/gallery-5.6b4daaed28db50a3f4bd.jpg",
+    "static/media/gallery-2.jpg": "/cake-demo-website/static/media/gallery-2.531be739d80220857c57.jpg",
+    "static/media/picture-3.jpg": "/cake-demo-website/static/media/picture-3.5f2afa7544ce07a3a264.jpg",
+    "index.html": "/cake-demo-website/index.html",
+    "main.32636f3f.css.map": "/cake-demo-website/static/css/main.32636f3f.css.map",
+    "main.fa57d063.js.map": "/cake-demo-website/static/js/main.fa57d063.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32636f3f.css",
+    "static/js/main.fa57d063.js"
+  ]
+}
