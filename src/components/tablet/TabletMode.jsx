@@ -1,6 +1,7 @@
 import React from "react";
-import { Link } from "react-scroll";
+
 import "../mediaQuerry/MediaQuerry.css";
+import { Link } from "react-scroll";
 //import { default as img2 } from "../../asstes/images/gallery-2.jpg";
 export const TabletMode = () => {
   return (
@@ -15,8 +16,9 @@ export const TabletMode = () => {
         <button className="introBtn  p-2 sm:p-4 mt-7 rounded-lg hover:scale-105 hover:transition-all duration-500">
           <Link
             className="text-[#8652ff] sm:text-black font-semibold"
-            activeClass="active"
+           
             to="menu"
+            activeClass="active"
             spy={true}
             smooth={true}
             offset={-60}

@@ -9,7 +9,6 @@ import { Menu } from "./components/menu/Menu";
 import { Footer } from "./components/footer/Footer";
 import TestimonialsSlider from "./components/testimonials/Testimonial";
 
-
 function App() {
   const [open, setOpen] = useState(false);
   return (
@@ -21,12 +20,11 @@ function App() {
         <Menu />
         <Gallery />
         <About />
-        <TestimonialsSlider/>
-        <Contact />
+        <TestimonialsSlider />
+        <Contact /> 
+       
         <Footer />
       </div>
-
-    
     </div>
   );
 }

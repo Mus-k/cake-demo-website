@@ -1,6 +1,8 @@
 import React from "react";
+
+import { default as img1 } from "../../asstes/images/cakeArt.png";
+
 import { Link } from "react-scroll";
-import {default as img1} from '../../asstes/images/cakeArt.png'
 export const TopNav = ({ open, setOpen }) => {
   const active =
     "topbar active linear  h-[60px] text-white w-[100%] fixed z-50 flex items-center";
@@ -10,19 +12,25 @@ export const TopNav = ({ open, setOpen }) => {
     <div className={open ? active : unactive}>
       <div className="wrapperr flex justify-between items-center w-[100%]">
         <div className="left flex  justify-around items-center mx-1 md:mx-5">
-          <div className={open ? 'logo text-2xl bg-[#8652ff]  w-32 font-semibold mx-2 md:mx-5' : 'logo text-2xl w-32 font-semibold mx-2 md:mx-5'}
-         >
+          <div
+            className={
+              open
+                ? "logo text-2xl bg-[#8652ff]  w-32 font-semibold mx-2 md:mx-5"
+                : "logo text-2xl w-32 font-semibold mx-2 md:mx-5"
+            }
+          >
             <Link
               className="text-md   md:text-3xl
               cursor-pointer"
-              activeClass="active"
+            
               to="intro"
+              activeClass="active"
               spy={true}
               smooth={true}
               offset={-60}
               duration={500}
             >
-              <img src={img1} alt='logo'/>
+              <img src={img1} alt="logo" />
             </Link>
           </div>
           <div className="mx-1 md:mx-2 lg:mx-5 text-sm sm:text-md  cursor-pointer">
@@ -34,10 +42,10 @@ export const TopNav = ({ open, setOpen }) => {
             <a href="mailto:kmusa@gmail.com">kmariam@gmail.com</a>
           </div>
           <div className="mx-1 md:mx-5 flex gap-2 text-sm sm:text-md md:gap-4 sm:flex-wrap  cursor-pointer">
-            <i class="fa-brands fa-whatsapp"></i>
-            <i class="fa-brands fa-facebook sm"></i>
-            <i class="fa-brands fa-instagram sm"></i>
-            <i class="fa-brands fa-twitter sm"></i>
+            <i className="fa-brands fa-whatsapp"></i>
+            <i className="fa-brands fa-facebook sm"></i>
+            <i className="fa-brands fa-instagram sm"></i>
+            <i className="fa-brands fa-twitter sm"></i>
           </div>
         </div>
         <div className="right ">

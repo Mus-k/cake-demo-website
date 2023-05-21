@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import SliderData from "../../api/SliderData";
-import { Link } from "react-scroll";
+
 import "../mediaQuerry/MediaQuerry.css";
+import { Link } from "react-scroll";
 
 export const Slider = () => {
   const [slides] = useState(SliderData);
@@ -80,8 +81,8 @@ export const Slider = () => {
                     <button className="linear  p-4 mt-7 rounded-lg hover:scale-105 hover:transition-all duration-500">
                       <Link
                         className="text-white font-semibold"
-                        activeClass="active"
                         to="menu"
+                        activeClass="active"
                         spy={true}
                         smooth={true}
                         offset={-60}

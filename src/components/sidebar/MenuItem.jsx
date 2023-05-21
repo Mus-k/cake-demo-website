@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
+
+
 export const MenuItem = ({ open, setOpen }) => {
   const handleClick = () => {
     setOpen(!open);
@@ -14,9 +16,10 @@ export const MenuItem = ({ open, setOpen }) => {
         <li className="mb-6 cursor-pointer hover:scale-105 hover:transition-all  hover:duration-500">
           <Link
             onClick={handleClick}
-            activeClass="active"
+           
             to="intro"
-            spy={true}
+            activeClass="active"
+              spy={true}
             smooth={true}
             offset={-60}
             duration={500}
@@ -27,8 +30,9 @@ export const MenuItem = ({ open, setOpen }) => {
         <li className="mb-6 cursor-pointer hover:scale-105 hover:transition-all  hover:duration-500">
           <Link
             onClick={handleClick}
-            activeClass="active"
+          
             to="menu"
+            activeClass="active"
             spy={true}
             smooth={true}
             offset={-60}
@@ -40,8 +44,9 @@ export const MenuItem = ({ open, setOpen }) => {
         <li className="mb-6 cursor-pointer hover:scale-105 hover:transition-all  hover:duration-500">
           <Link
             onClick={handleClick}
-            activeClass="active"
+          
             to="gallery"
+            activeClass="active"
             spy={true}
             smooth={true}
             offset={-60}
@@ -53,8 +58,9 @@ export const MenuItem = ({ open, setOpen }) => {
         <li className="mb-6 cursor-pointer hover:scale-105 hover:transition-all  hover:duration-500">
           <Link
             onClick={handleClick}
-            activeClass="active"
+          
             to="about"
+            activeClass="active"
             spy={true}
             smooth={true}
             offset={-60}
@@ -66,9 +72,10 @@ export const MenuItem = ({ open, setOpen }) => {
         <li className="mb-6 cursor-pointer hover:scale-105 hover:transition-all  hover:duration-500">
           <Link
             onClick={handleClick}
-            activeClass="active"
+           
             to="contact"
-            spy={true}
+            activeClass="active"
+              spy={true}
             smooth={true}
             offset={-60}
             duration={500}

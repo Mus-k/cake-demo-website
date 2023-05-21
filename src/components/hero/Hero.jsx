@@ -6,12 +6,10 @@ export const Hero = () => {
   return (
     <div
       id="intro"
-      className="height intro relative bg-white pt-[60px] max-w-[1550px] "
+      className="height intro h-full relative bg-white pt-[60px] max-w-[1550px] "
     >
       <Slider />
-      <TabletMode  />
-      
-
+      <TabletMode />
     </div>
   );
 };
