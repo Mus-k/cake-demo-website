@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cake-demo-website/static/css/main.32636f3f.css",
-    "main.js": "/cake-demo-website/static/js/main.fa57d063.js",
+    "main.css": "/cake-demo-website/static/css/main.552f0e6f.css",
+    "main.js": "/cake-demo-website/static/js/main.933067a1.js",
     "static/media/bgland.jpg": "/cake-demo-website/static/media/bgland.a4897d7fb6c983a75a23.jpg",
     "static/media/picture-1.jpg": "/cake-demo-website/static/media/picture-1.1347e86901b77d8f5ddf.jpg",
     "static/media/gallery-7.jpg": "/cake-demo-website/static/media/gallery-7.bc631cc7ac0acc522fd2.jpg",
@@ -19,11 +19,11 @@
     "static/media/gallery-2.jpg": "/cake-demo-website/static/media/gallery-2.531be739d80220857c57.jpg",
     "static/media/picture-3.jpg": "/cake-demo-website/static/media/picture-3.5f2afa7544ce07a3a264.jpg",
     "index.html": "/cake-demo-website/index.html",
-    "main.32636f3f.css.map": "/cake-demo-website/static/css/main.32636f3f.css.map",
-    "main.fa57d063.js.map": "/cake-demo-website/static/js/main.fa57d063.js.map"
+    "main.552f0e6f.css.map": "/cake-demo-website/static/css/main.552f0e6f.css.map",
+    "main.933067a1.js.map": "/cake-demo-website/static/js/main.933067a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.32636f3f.css",
-    "static/js/main.fa57d063.js"
+    "static/css/main.552f0e6f.css",
+    "static/js/main.933067a1.js"
   ]
 }
